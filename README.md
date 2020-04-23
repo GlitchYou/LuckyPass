@@ -5,11 +5,11 @@ aleatórias.
 
 ## Uso
 
---mn Minimo               Padrão: 8
---mx Maximo               Padrão: 8
---keys Quantidade         Padrão: 1000
---wor Lista-de-Palavras   Padrão: '1234567890'
---msk Macara/Modelo       Padrão: '{w}'
-
+#### Minimo            --mn      Padrão: 8
+#### Maximo            --mx      Padrão: 8
+#### Quantidade        --keys    Padrão: 1000
+#### Lista-de-Palavras --wor     Padrão: '1234567890'
+#### Macara/Modelo     --msk     Padrão: '{w}'
 
     ./main.py 1 --wor 123abc --msk test-{w} handshake
+
